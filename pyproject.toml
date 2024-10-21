@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "dagster-perian"
+name = "dagster_perian"
 version = "0.1.0"
-description = ""
+description = "A dagster plugin for the Perian Sky Platform"
 authors = ["Perian <info@perian.io>"]
 readme = "README.md"
 homepage = "https://perian.io"
