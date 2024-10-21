@@ -14,7 +14,7 @@ This Dagster integration allows you to easily dockerize your codebase and execut
 
 - Docker installed on your local machine.
 - Access to the Perian platform (ensure your account is set up).
-- Dagster installed in your project (follow the [Dagster installation guide](https://docs.dagster.io/getting-started/install-dagster)).
+- Dagster installed in your project (follow the [Dagster installation guide](https://docs.dagster.io/getting-started/install)).
 
 
 ## Ops
