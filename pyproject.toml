@@ -46,8 +46,3 @@ requires-python = ">=3.10,<3.13"
 
 [project.urls]
 Support = "mailto:support@perian.io"
-
-[tool.poetry.packages]
-include = [
-    { include = "dagster_perian", from = "." }
-]
