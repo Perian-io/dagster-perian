@@ -8,7 +8,7 @@ from dagster import op, In
 from perian import ProviderQueryInput, CreateJobRequest, InstanceTypeQueryInput, CpuQueryInput, MemoryQueryInput, Size, \
     AcceleratorQueryInput, Name, RegionQueryInput, DockerRunParameters, DockerRegistryCredentials
 
-from perian_job.resources import PerianJobMetadata
+from dagster_perian.resources import PerianJobMetadata
 
 
 @op(required_resource_keys={"perian_job_manager"})
