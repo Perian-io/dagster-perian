@@ -1,4 +1,4 @@
-# README for Dagster Integration with Perian
+# Dagster Integration with Perian
 
 ## Introduction
 
