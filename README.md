@@ -78,6 +78,7 @@ from perian_job.operations import create_perian_job, containerize_codebase
 def perian_job_flow():
     containerize_codebase()
     create_perian_job()
+```
 
 ```yaml
 resources:
