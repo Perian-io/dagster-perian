@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dagster_perian"
+name = "dagster-perian"
 version = "0.1.0"
 description = "A dagster plugin for the Perian Sky Platform"
 authors = ["Perian <info@perian.io>"]
@@ -46,3 +46,8 @@ requires-python = ">=3.10,<3.13"
 
 [project.urls]
 Support = "mailto:support@perian.io"
+
+[tool.poetry.packages]
+include = [
+    { include = "dagster_perian", from = "." }
+]
