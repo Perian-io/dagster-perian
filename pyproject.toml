@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "dagsterplugin-perian-job"
+version = "0.1.0"
+description = ""
+authors = ["Perian <info@perian.io>"]
+readme = "README.md"
+homepage = "https://perian.io"
+documentation = "https://perian.io"
+
+keywords = [
+    "perian",
+    "sky",
+    "sky-computing",
+    "sky-platform",
+    "cli"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+    "Topic :: System :: Distributed Computing",
+    "Topic :: System :: Systems Administration"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+dagster = "^1.8.10"
+perian = "^0.2.9"
+dagster-docker = "^0.24.11"
+docker = "^7.1.0"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+requires-python = ">=3.10,<3.13"
+
+[project.urls]
+Support = "mailto:support@perian.io"
