@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dagsterplugin-perian-job"
+name = "dagster-perian"
 version = "0.1.0"
 description = ""
 authors = ["Perian <info@perian.io>"]
