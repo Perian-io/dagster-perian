@@ -71,8 +71,8 @@ Here’s an example of how to define a Dagster job that utilizes the containeriz
 
 ```python
 from dagster import job
-from perian_job.resources import perian_job_resource
-from perian_job.operations import create_perian_job, containerize_codebase
+from dagster_perian.resources import perian_job_resource
+from dagster_perian.operations import create_perian_job, containerize_codebase
 
 @job(resource_defs={"perian_job_manager": perian_job_resource})
 def perian_job_flow():
