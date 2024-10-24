@@ -1,19 +1,19 @@
-# Dagster Integration with Perian
+# Dagster Integration with PERIAN
 
 ## Introduction
 
-This Dagster integration allows you to easily dockerize your codebase and execute it on the Perian platform, our serverless GPU environment. By leveraging this integration, you can streamline your workflow, enabling efficient code deployment and execution without the need for managing infrastructure.
+This Dagster integration allows you to easily dockerize your codebase and execute it on the PERIAN platform, our serverless GPU environment. By leveraging this integration, you can streamline your workflow, enabling efficient code deployment and execution without the need for managing infrastructure.
 
 ### Features
 
 - **Dockerization**: Automatically packages your codebase into a Docker container.
-- **Serverless Execution**: Runs your Docker containers on Perian’s scalable GPU infrastructure.
+- **Serverless Execution**: Runs your Docker containers on PERIAN’s scalable GPU infrastructure.
 - **Ease of Use**: Simple commands to get your project up and running quickly.
 
 ## Prerequisites
 
 - Docker installed on your local machine.
-- Access to the Perian platform (ensure your account is set up).
+- Access to the PERIAN platform (ensure your account is set up).
 - Dagster installed in your project (follow the [Dagster installation guide](https://docs.dagster.io/getting-started/install)).
 
 
@@ -34,7 +34,7 @@ This integration introduces the following Dagster ops:
      - `parameters`: Parameters for the command.
 
 2. **`create_perian_job`**: 
-   - Creates a job on the Perian platform using the Docker image built from your codebase.
+   - Creates a job on the PERIAN platform using the Docker image built from your codebase.
    - **Parameters**:
      - `image_name`: Name of the Docker image.
      - `tag`: Tag of the Docker image.
@@ -42,12 +42,12 @@ This integration introduces the following Dagster ops:
      - `cores`, `memory`, `accelerators`, `accelerator_type`, `country_code`, `provider`: Configuration for the job instance.
 
 3. **`get_perian_job`**: 
-   - Retrieves the status and logs of a job running on the Perian platform.
+   - Retrieves the status and logs of a job running on the PERIAN platform.
    - **Input**: 
      - `job_metadata`: Metadata containing the job ID.
 
 4. **`cancel_perian_job`**: 
-   - Cancels a running job on the Perian platform.
+   - Cancels a running job on the PERIAN platform.
    - **Input**: 
      - `job_metadata`: Metadata containing the job ID.
 
