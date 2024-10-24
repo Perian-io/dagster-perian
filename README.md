@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This Dagster integration allows you to easily dockerize your codebase and execute it on the PERIAN platform, our serverless GPU environment. By leveraging this integration, you can streamline your workflow, enabling efficient code deployment and execution without the need for managing infrastructure.
+This Dagster integration allows you to easily dockerize your codebase and execute it on the [PERIAN platform](https://perian.io), our serverless GPU environment. By leveraging this integration, you can streamline your workflow, enabling efficient code deployment and execution without the need for managing infrastructure.
+
+For more information, please visit the [PERIAN documentation](https://perian.io/docs).
 
 ### Features
 
@@ -67,7 +69,6 @@ This integration introduces the following Dagster ops:
 ## Example
 
 Here’s an example of how to define a Dagster job that utilizes the containerize_codebase and create_perian_job ops:
-
 
 ```python
 from dagster import job
