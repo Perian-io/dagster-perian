@@ -19,7 +19,7 @@ def create_perian_job(context):
     tag = config.get("tag", "latest")  # Default to "latest" if not specified
     docker_username = config.get("docker_username")
     docker_password = config.get("docker_password")
-    docker_repository = config.get("docker_repository")
+    docker_registry = config.get("docker_registry")
 
 
     job_request = CreateJobRequest(
@@ -38,7 +38,7 @@ def create_perian_job(context):
             image_tag=tag,
         ),
         docker_registry_credentials=DockerRegistryCredentials(
-            url=docker_repository,
+            url=docker_registry,
             username=docker_username,
             password=docker_password
         ),
@@ -77,7 +77,7 @@ def containerize_codebase(context):
     tag = config.get("tag", "latest")
     docker_username = config.get("docker_username")
     docker_password = config.get("docker_password")
-    docker_repository = config.get("docker_repository")
+    docker_registry = config.get("docker_registry")
     command = config.get("command")
     parameters = config.get("parameters")
 

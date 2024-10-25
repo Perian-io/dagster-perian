@@ -107,7 +107,7 @@ ops:
       python_version: "<python-version-to-be-used>"
       docker_username: "<your-docker-username>"
       docker_password: "<your-docker-password>"
-      docker_repository: "<your-docker-repository-url>"
+      docker_registry: "<your-docker-registry-url>"
       command: "<running-script-or-module>"
       parameters: "<command-parameters>"
 
