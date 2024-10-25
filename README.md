@@ -93,7 +93,7 @@ ops:
   create_perian_job:
     config:
       accelerators: 1
-      accelerator_type:"A100"
+      accelerator_type: "A100"
       image_name: "<your-image-name>"
       tag: "<your-image-tag>"
       docker_username: "<your-docker-username>"
@@ -107,6 +107,7 @@ ops:
       python_version: "<python-version-to-be-used>"
       docker_username: "<your-docker-username>"
       docker_password: "<your-docker-password>"
+      docker_repository: "<your-docker-repository-url>"
       command: "<running-script-or-module>"
       parameters: "<command-parameters>"
 
